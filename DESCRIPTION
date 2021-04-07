@@ -8,6 +8,9 @@ Authors@R:
            email = "be.flueckiger@gmail.com",
            comment = c(ORCID = "0000-0002-6838-3648"))
 Description: Different functions for R.
+Imports:
+    jsonlite,
+    httr
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
