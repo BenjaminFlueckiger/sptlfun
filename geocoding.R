@@ -1,5 +1,5 @@
 #geocoding using GeoAdmin REST API
-#BF 18.03.2021
+#BF 19.03.2021
 
 #FAIR USE limits: https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/terms-of-use.html
 #20 requests per minute!!! 28'800 per day!
@@ -10,6 +10,7 @@
 #gives several addresses if not precise (the lower the weight, the better the match)
 #library(jsonlite)
 #library(httr)
+#this is a test
 
 geocoding <- function(address, sleep=3){
   if(is.character(address)==FALSE){
